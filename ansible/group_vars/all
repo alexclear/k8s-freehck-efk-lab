@@ -1,11 +1,10 @@
-k8s_local_storage_pv_names:
-  - pv1
-  - pv2
-  - pv3
-  - pv4
-  - pv5
-  - pv6
-  - pv7
-  - pv8
-  - pv9
-storage_class_name: local-storage
+k8s_ver: "1.16.2-00"
+k8s_node_ip: "{{ ansible_host }}"
+k8s_init_cidr: "10.1.0.0/16"
+k8s_cidr: "10.1.0.0/16"
+k8s_enable_calico: true
+k8s_calico_ver: "v3.10"
+k8s_calico_autodetection_method: "can-reach={{ k8s_node_ip }}"  # applied to master, so it's master's node ip
+k8s_app_install_dashboard: false
+k8s_app_dashboard_ver: "v2.0.0-beta5"
+storage_class_name: local-path
