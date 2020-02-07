@@ -8,3 +8,5 @@ k8s_calico_autodetection_method: "can-reach={{ k8s_node_ip }}"  # applied to mas
 k8s_app_install_dashboard: false
 k8s_app_dashboard_ver: "v2.0.0-beta5"
 storage_class_name: local-path
+elasticsearch_image_tag: 6.8.6
+k8s_kibana_imagetag: 6.8.6

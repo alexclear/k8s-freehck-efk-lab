@@ -38,11 +38,11 @@
   version: ee105fa862ae0cc58927e587edbb4d291869bbcc
   name: k8s-rancher-local-path-provisioner
 - src: https://github.com/kofonfor/ansible-role-k8s-elasticsearch-cluster.git
-  version: 027a6cfa0c5ba17f03c9f430d5d91e52e3769b99
+  version: 6b38473af72f6e161394152951837a6f4fd3712f
   name: k8s-elasticsearch-cluster
 - src: https://github.com/kofonfor/ansible-role-k8s-fluentd-elasticsearch.git
   version: 99e830a46e2e4a9f6a6df8c10db7571fadd97564
   name: k8s-fluentd-elasticsearch
 - src: https://github.com/kofonfor/ansible-role-k8s-kibana.git
-  version: 85f6d9536c1eaac7d497891b1db216238d727fc0
+  version: 03562e45205c1fbaabbdc8af82433b901cdfe7c0
   name: k8s-kibana
